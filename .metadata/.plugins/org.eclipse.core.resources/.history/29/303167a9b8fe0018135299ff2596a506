@@ -1,0 +1,11 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Midterm student = new Midterm("Selena", "Pursat");
+		
+		System.out.println(student);
+
+	}
+
+}

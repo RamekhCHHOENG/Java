@@ -1,0 +1,42 @@
+
+public class GoldMembership extends Customer{
+	private int registeredYear;
+	private double discountRate;
+	
+	public GoldMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	public int getRegisteredYear() {
+		return registeredYear;
+	}
+
+	public void setRegisteredYear(int registeredYear) {
+		this.registeredYear = registeredYear;
+	}
+	
+	public int getMembershipYear() {
+		return registerYear;
+	}
+
+	@Override
+	public double findTotalExpense() {
+		double discount = 0.0;
+		double expense = getPackageCost()+getServiceCost();
+		if(getMembershipYear()>=2) {
+			discount = 0.25;
+		}else (expense >= 250){
+			discount = 0.2;
+		}
+		return 0;
+	}
+	
+	@Override
+	public String toString() {
+		
+		return super.toString();
+	}
+	
+	
+	
+}

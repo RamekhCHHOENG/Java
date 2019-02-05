@@ -1,0 +1,10 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Student Student1 = new Student(12, "WEB2019");
+		Student Student2 = new Student("2019", 20);
+		
+	}
+
+}

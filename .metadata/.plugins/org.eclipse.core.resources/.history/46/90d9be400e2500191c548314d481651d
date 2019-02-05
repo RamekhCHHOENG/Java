@@ -1,0 +1,52 @@
+
+public class SilverMembership extends Customer {
+	public SilverMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+	
+	
+	public 	double getDiscount() {
+		return 0;
+	}
+
+
+	@Override
+	public double findTotalExpense() {
+		
+		double expense = getPackageCost()+getServiceCost();
+		double discount = 0.1 * expense;
+		double totalExpense = expense -discount;
+	}
+
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
+
+	@Override
+	public boolean equals(Object arg0) {
+		// TODO Auto-generated method stub
+		return super.equals(arg0);
+	}
+
+
+
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+
+	@Override
+	public String toString() {
+		
+		return super.toString();
+	}
+	
+	
+}

@@ -1,0 +1,32 @@
+
+public class Student {
+	private String firstName;
+	private String batch;
+	ArrayList<Book> bookCart;
+	
+	public Student(String firstName, String batch) {
+		this.firstName = firstName;
+		this.batch = batch;
+		this.bookCart = new int[10];
+	}
+	
+	public void borrowBook(Book) {
+		
+	}
+	public void returnBook(Book) {
+		
+	}
+	
+	public String getBookCart(ArrayList<Book>) {
+		
+	}
+	
+	
+	
+
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+}

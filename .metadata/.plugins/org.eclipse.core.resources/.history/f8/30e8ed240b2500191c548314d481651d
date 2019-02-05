@@ -1,0 +1,30 @@
+
+public class GoldMembership extends Customer{
+	private int registeredYear;
+	private double discountRate;
+	
+	public GoldMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	public int getRegisteredYear() {
+		return registeredYear;
+	}
+
+	public void setRegisteredYear(int registeredYear) {
+		this.registeredYear = registeredYear;
+	}
+	
+	public int getMembershipYear() {
+		return 0;
+	}
+
+	@Override
+	public double findTotalExpense() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+}

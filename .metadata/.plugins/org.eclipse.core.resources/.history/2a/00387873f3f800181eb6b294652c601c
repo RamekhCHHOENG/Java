@@ -1,0 +1,54 @@
+
+public class student {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	String name;
+	int age;
+	String gender;
+	String batch;
+	
+	public student(String name, int age, String gender, String batch) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.batch = batch;
+	}
+	
+	public void reviewLession() {
+		System.out.println("Requires to review lession before going to class");
+	}	
+}

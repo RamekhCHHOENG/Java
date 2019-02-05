@@ -1,0 +1,6 @@
+
+public class SilverMembership {
+	public SilverMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+}

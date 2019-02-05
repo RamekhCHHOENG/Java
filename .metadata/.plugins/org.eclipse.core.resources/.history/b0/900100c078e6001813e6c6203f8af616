@@ -1,0 +1,44 @@
+
+public class pagination {
+
+	public static void main(String[] args) {
+		
+		
+		char letter = "A";
+		int entity;
+		switch (letter) {
+			case 'A':
+			case 'a':
+				entity= 10;
+				break;
+			case 'B':
+			case 'b':
+				entity= 20;
+				break;
+			case 'C':
+			case 'c':
+				entity= 50;
+				break;
+			case 'D':
+			case 'd':
+				entity= 100;
+				break;
+			case 'E':
+			case 'e':
+				entity= 200;
+				break;
+		}	
+		
+		
+		System.out.println("Enter A or a to display 10 entities per page");
+		System.out.println("Enter B or b to display 20 entities per page");
+		System.out.println("Enter C or c to display 50 entities per page");
+		System.out.println("Enter D or d to display 100 entities per page");
+		System.out.println("Enter E or e to display 200 entities per page");
+		System.out.println("------------------------------------");
+		System.out.println("Enter:"+ letter);
+		System.out.println("Entities:");
+		System.out.println("Entities To Display Per Page:");
+		System.out.println("====================================");
+	}
+}

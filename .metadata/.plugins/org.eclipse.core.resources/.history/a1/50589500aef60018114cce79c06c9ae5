@@ -1,0 +1,11 @@
+
+public class studentlist {
+
+	public static void main(String[] args) {
+		student studentinfo = new student("Akira", "Whoawhoah", "white", 1111);
+		
+		studentinfo.eat();
+
+	}
+
+}

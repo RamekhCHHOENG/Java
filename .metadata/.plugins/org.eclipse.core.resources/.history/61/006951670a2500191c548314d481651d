@@ -1,0 +1,12 @@
+
+public class GoldMembership {
+	private int registeredYear;
+	private double discountRate;
+	
+	public GoldMembership(String name, double packageCost, double serviceCost) {
+		this.name = name;
+		this.packageCost = packageCost;
+		this.serviceCost = serviceCost;
+	}
+	
+}

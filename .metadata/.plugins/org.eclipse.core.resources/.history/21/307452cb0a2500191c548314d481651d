@@ -1,0 +1,14 @@
+
+public class GoldMembership extends Customer{
+	private int registeredYear;
+	private double discountRate;
+	
+	public GoldMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+	
+	public int getRegisteredYear() {
+		return registeredYear;
+	}
+	
+}

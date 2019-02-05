@@ -1,0 +1,9 @@
+
+public class studentlist {
+
+	public static void main(String[] args) {
+		student studentInfo = new student("Makara", 20, "Male", "WEB2019");
+
+	}
+
+}

@@ -1,0 +1,76 @@
+
+public class ArrayHomework {
+
+	public static void main(String[] args) {
+		String[] employee= {"Doung","Chan","Minea","Mesa","Romdoul","Veha","Por","Kanika"};
+		int[] salary = { 560, 560, 500, 500, 190, 190, 560,700};
+		int max = salary[0];
+		int indexMax=0;
+		int min = salary[0];
+		int indexMin=0;
+		int average=0;
+		int sumSalary=0;
+		for(int i=0; i<=salary.length-1;i++) {
+			
+//1. Find who has the highest salary
+			if	(max < salary[i]) {
+				max=salary[i];
+				indexMax = i;	
+			}
+			
+//2. Find who has the lowest salary
+			if	(min > salary[i]) {
+				min=salary[i];
+				indexMin = i;	
+			}
+			
+//3. Find who has the salary lower than average salary
+			//find average 
+
+			
+			sumSalary = salary [i]+sumSalary;
+			if(i == salary.length-1) {
+				average = sumSalary/(salary.length);
+			};
+			
+		};
+		int indexLowerAve=0;
+		int indexHigherAve=0;
+		for	(int j = 0 ; j < salary.length-1 ; j++) {
+			if	(average >= salary[j]) {
+				indexLowerAve = j;
+			}
+			
+			if	(average < salary[j]) {
+			indexHigherAve = j;
+			
+			int [] arrayMax= new int[8];
+			if (max == salary[j])
+			}
+		};
+		
+		
+//1. Output who has the highest salary
+		System.out.println("1.Employee who has highest salary: ");
+		System.out.println(employee[indexMax]+"has the highest salary of $"+max);
+		
+		System.out.println("....................................");
+//2. Output who has the lowest salary
+		System.out.println("2.Employee who has lowest salary:");
+		System.out.println(employee[indexMin]+"has the lowest salary of $"+min);
+		
+//3. Output who has the salary lower than average salary
+		System.out.println("....................................");
+		System.out.println("3.Employee who has lower salary than average: $"+average );
+		System.out.println(employee[indexLowerAve]+ " : " + salary[indexLowerAve]);
+		
+//4. Output who has the salary higher or equal average salary
+		System.out.println("....................................");
+		System.out.println("4.Employee who has higher salary than salary than average: $"+average );
+		System.out.println(employee[indexHigherAve]+ " : " + salary[indexHigherAve]);
+	
+//5. Output who has the same salary
+		
+	}
+
+}

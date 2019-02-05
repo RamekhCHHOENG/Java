@@ -1,0 +1,20 @@
+
+public class studentlist {
+
+	public static void main(String[] args) {
+		student studentinfo = new student("Akira", "Whoawhoah", "white", 1111);
+		student animal = new student("Mow", "Mow", "black", 10)
+		
+		System.out.println(studentinfo.name);
+		studentinfo.eat();
+		studentinfo.bark();
+		studentinfo.run();
+		System.out.println(animal.name);
+		System.out.println(animal.breed);
+		System.out.println(animal.color);
+		System.out.println(animal.age);
+		
+
+	}
+
+}

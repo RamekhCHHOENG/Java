@@ -1,0 +1,17 @@
+
+public class studentlist {
+
+	public static void main(String[] args) {
+		student makara = new student("Makara", 20, "Male", "WEB2019");
+		student dara = new student("Dara", 20, "Male", "WEB2019");
+		student sitha = new student("Sitha", 20, "Male", "WEB2019");
+		
+		System.out.print(makara.name="Ramekh"+": ");
+		makara.reviewLession();
+		System.out.print(dara.name+": ");
+		dara.reviewLession();
+		System.out.print(sitha.name+": ");
+		sitha.reviewLession();
+	}
+
+}

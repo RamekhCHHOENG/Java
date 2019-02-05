@@ -1,0 +1,20 @@
+package ClassInheritance;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Dog kiki = new Dog();
+		
+		kiki.name = "kiki";
+		kiki.bark();
+		kiki.eat();
+		kiki.run();
+		
+		Cat ketty = new Cat();
+		ketty.moew();
+		ketty.eat();
+		ketty.run();
+
+	}
+
+}

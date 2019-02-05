@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Book> book = new ArrayList<Book>();
+		
+		
+		Book book1 = new Book("Pro Java Programming","Terrill ", 2005);
+		Book book2 = new Book("Programming in Python 3 ","Mark Summerfield ", 2005 );
+		Book book3 = new Book("The Clean Coder","Robert ", 2011);
+		Book book4 = new Book("The Art of Agile Development ","James Shore", 2007 );
+		Book book5 = new Book("Head First Design Patterns ","Eric Freeman", 2004);
+		Book book6 = new Book("The Linux	 Command Line","Willian", 2009);
+		Book book7 = new Book("The Linux	 Command Line","Willian", 2009);
+		Book book8 = new Book("Code Complete","Steve", 1993);
+		Book book9 = new Book("Unit Test Patterns ","Gerard Meszaros", 2003);
+		Book book10 = new Book("The C++ Programming Language","Bjarne Stroustup", 2013);				
+		
+		book1.borrow();
+		book1.borrow();
+		book1.borrow();
+		book1.borrow();
+		book1.borrow();
+		
+		book.add(book1);
+		book.add(book2);
+		book.add(book3);
+		book.add(book4);
+		book.add(book5);
+		book.add(book6);
+		book.add(book7);
+		book.add(book8);
+		book.add(book9);
+		book.add(book10);
+		
+		
+		
+		
+		for (Book b: book) {
+			System.out.println(b);
+		}
+			
+//		//Print the list objects in tabular format.
+//	    System.out.println("-----------------------------------------------------------------------------");
+//	    System.out.printf("%10s %30s %20s %5s", "TITLE", "AUTHOR", "YEAR", "STATUS");
+//	    System.out.println();
+//	    System.out.println("-----------------------------------------------------------------------------");
+//
+//	    for(Book books: book){
+//		    System.out.format("%10s %30s %20s %10s", books.getTitle(), books.getAuthor(), 
+//		    		books.getPublishYear(), books.isBorrowed());
+//		    System.out.println();
+//	    } 
+//	    System.out.println("-----------------------------------------------------------------------------");     
+	}
+
+}

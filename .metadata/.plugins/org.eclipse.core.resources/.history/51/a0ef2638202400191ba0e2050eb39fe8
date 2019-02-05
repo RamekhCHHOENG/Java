@@ -1,0 +1,8 @@
+
+public class Intern {
+	private String school;
+	
+	public Intern(String id, String name) {
+		super(id, name);
+	}
+}

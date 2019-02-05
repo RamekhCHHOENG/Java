@@ -1,0 +1,4 @@
+
+public interface ITaxPayer {
+	public abstract calculateTax(double tax);
+}

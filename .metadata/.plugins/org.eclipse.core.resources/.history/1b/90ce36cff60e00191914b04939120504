@@ -1,0 +1,21 @@
+package ClassInheritance;
+
+public class Animal {
+	String name;
+	String breed;
+	String color;
+	String age;
+	
+	public Animal() {
+		
+	}
+	
+	public void eat() {
+		System.out.println("I could eat everything");
+	}
+	
+	public void run() {
+		System.out.println("I could run fast than people");
+	}
+	
+}

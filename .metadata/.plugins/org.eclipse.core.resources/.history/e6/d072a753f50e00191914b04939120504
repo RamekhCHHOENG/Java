@@ -1,0 +1,12 @@
+package ClassInheritance;
+
+public class Animal {
+	String name;
+	String breed;
+	String age;
+	
+	public Animal() {
+		
+	}
+	
+}

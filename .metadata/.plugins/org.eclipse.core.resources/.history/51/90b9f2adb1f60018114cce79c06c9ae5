@@ -1,0 +1,20 @@
+
+public class Student {
+	String name;
+	int age;
+	char gender;
+	String batch;
+	
+	public Student(String name, int age, char gender, String batch) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.batch = batch;
+	}
+	
+	public void reviewLession() {
+		System.out.println("Requires to review lession before going to class");
+	}
+	
+	
+}

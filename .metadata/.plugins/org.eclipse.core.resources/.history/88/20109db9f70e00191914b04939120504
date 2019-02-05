@@ -1,0 +1,9 @@
+package ClassInheritance;
+
+public class Cat extends Animal{
+	
+	public void moewO() {
+		System.out.println("Moew Moew");
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Newspaper.java&apos; to &apos;NewspaperAd.java&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;Newspaper.java&apos;&#x0D;&#x0A;- Renamed element: &apos;NewspaperAd.java&apos;" description="Rename compilation unit &apos;Newspaper.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Newspaper.java" name="NewspaperAd.java" references="false" stamp="1548036820345" version="1.0"/>
+</session>

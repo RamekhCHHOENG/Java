@@ -1,0 +1,15 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Visitor visitor1 = new Visitor("Vandy", 150.0, 20.0);
+		System.out.println(visitor1.toString());
+		
+		Visitor visitor1 = new Visitor("Vandy", 150.0, 20.0);
+		System.out.println(visitor1.toString());
+		
+		Visitor visitor1 = new Visitor("Vandy", 150.0, 20.0);
+		System.out.println(visitor1.toString());
+	}
+
+}

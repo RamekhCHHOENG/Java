@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Book> book = new ArrayList<Book>();
+		book.add(new Book("Don't Make Me Think","Steve Krung", 2000));
+		book.add(new Book("Pro Java Programming","Terrill ", 2005));
+		book.add(new Book("Programming in Python 3 ","Mark Summerfield ", 2005 ));
+		book.add(new Book("The Clean Coder","Robert ", 2011));
+		book.add(new Book("The Art of Agile Development ","James Shore", 2007 ));
+		book.add(new Book("Head First Design Patterns ","Eric Freeman", 2004));
+		book.add(new Book("The Linux Command Line","Willian", 2009));
+		book.add(new Book("Code Complete","Steve", 1993 ));
+		book.add(new Book("Unit Test Patterns ","Gerard Meszaros", 2003));
+		book.add(new Book("The C++ Programming Language","Bjarne Stroustup", 2013));
+		
+		
+		 
+			
+		//Print the list objects in tabular format.
+	    System.out.println("-----------------------------------------------------------------------------");
+	    System.out.printf("%10s %30s %20s %5s", "TITLE", "AUTHOR", "YEAR", "STATUS");
+	    System.out.println();
+	    System.out.println("-----------------------------------------------------------------------------");
+
+	    for(Book books: book){
+		    System.out.format("%10s %30s %20s", books.getTitle(), books.getAuthor(), books.getPublishYear());
+		    System.out.println();
+	    } 
+	    System.out.println("-----------------------------------------------------------------------------");     
+	}
+
+}

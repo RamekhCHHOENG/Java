@@ -1,0 +1,32 @@
+
+public class Visitor extends Customer{
+	public Visitor(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	@Override
+	public double findTotalExpense() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
+	@Override
+	public boolean equals(Object arg0) {
+		// TODO Auto-generated method stub
+		return super.equals(arg0);
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+	
+}

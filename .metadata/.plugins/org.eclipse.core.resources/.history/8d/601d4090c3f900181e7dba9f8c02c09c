@@ -1,0 +1,20 @@
+
+public class Student {
+	String name;
+	String province;
+	int age;
+	String batch;
+	
+	public Student() {
+		
+	}
+	public Student( String name, String province, int age, String batch){
+		
+	}
+	public Student(String name, String province, int age) {
+		
+	}
+	
+	
+	
+}

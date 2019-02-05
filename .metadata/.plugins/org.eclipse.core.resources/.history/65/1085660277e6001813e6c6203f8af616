@@ -1,0 +1,16 @@
+
+public class pagination {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Enter A or a to display 10 entities per page");
+		System.out.println("Enter B or b to display 20 entities per page");
+		System.out.println("Enter C or c to display 50 entities per page");
+		System.out.println("Enter D or d to display 100 entities per page");
+		System.out.println("Enter E or e to display 200 entities per page");
+		--------------------------------------------------------
+
+	}
+
+}

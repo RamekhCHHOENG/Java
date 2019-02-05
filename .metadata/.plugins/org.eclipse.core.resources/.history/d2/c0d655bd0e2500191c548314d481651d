@@ -1,0 +1,20 @@
+
+public class Visitor extends Customer{
+	public Visitor(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	@Override
+	public double findTotalExpense() {
+		double expense = getPackageCost()+getServiceCost();
+		return expense;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+	
+}

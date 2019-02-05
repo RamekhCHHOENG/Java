@@ -1,0 +1,6 @@
+
+public class Visitor extends Customer{
+	public Visitor(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+}

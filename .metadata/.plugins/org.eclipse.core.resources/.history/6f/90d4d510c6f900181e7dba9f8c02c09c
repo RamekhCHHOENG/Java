@@ -1,0 +1,15 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Student Student1 = new Student("Sovann", "Male", 12, "WEB2019");
+		Student Student2 = new Student("Akara", "Female","2019", 20);
+		
+		Student1.setAge(70);
+		
+		
+		
+		
+	}
+
+}

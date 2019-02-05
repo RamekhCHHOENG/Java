@@ -1,0 +1,13 @@
+package Activity_inheritance;
+
+public class Student extends Person{
+	private String batch;
+	
+	public Student() {
+		
+	}
+	
+	public Student(String name, int age, String batch) {
+		super(name, age, batch);
+	}
+}

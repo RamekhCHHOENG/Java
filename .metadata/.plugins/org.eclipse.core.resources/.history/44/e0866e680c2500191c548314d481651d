@@ -1,0 +1,25 @@
+
+public class Visitor extends Customer{
+	public Visitor(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	@Override
+	public double findTotalExpense() {
+		double discount = 0.0;
+		return discount;
+	}
+
+	@Override
+	public String toString() {
+		sout Customer Name: Vandy [Normal Customer]
+				Package Cost: 150.0$
+				Service Cost: 20.0$
+				Discount:0%
+				Total Expense: 170.0$
+				================
+		return super.toString();
+	}
+	
+	
+}

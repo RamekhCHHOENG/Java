@@ -1,0 +1,28 @@
+
+public class Visitor extends Customer{
+	public Visitor(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+
+	public double getDiscount() {
+		double discount =0.0;
+		return discount;
+	}
+	@Override
+	public double findTotalExpense() {
+		double expense = getPackageCost()+getServiceCost();
+		return expense;
+	}
+
+	@Override
+	public String toString() {	
+		System.out.println("Customer Name:"+getName()+ "[Normal Customer] \n"+"Package Cost: "+getPackageCost()+"Service Cost: "
+				+getServiceCost()+"\n Discount: "+getDiscount()+"Total Expense: "+findTotalExpense()+"\n ================"");
+ 20.0$
+Discount:0%
+Total Expense: 170.0$
+================);
+	}
+	
+	
+}

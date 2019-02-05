@@ -1,0 +1,24 @@
+
+public class student {
+	String name;
+	String breed;
+	String color;
+	int age;
+	
+	public student(String name, String breed, String color, int age) {
+		this.name = name;
+		this.breed = breed;
+		this.color = color;
+		this.age = age;
+		
+	}
+	void bark() {
+		System.out.println("Woahwoah");
+	}
+	void eat() {
+		System.out.println("My favorite food is beef");
+	}
+	void run() {
+		System.out.println("I run with 4 legs");
+	}
+}

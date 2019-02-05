@@ -1,0 +1,40 @@
+
+public class Product {
+
+	private String name;
+	private String[] model;
+	private double[] price;
+	int numberProduct;
+	
+	
+	public Product(String name) {
+		this.name = name;
+		this.model = new String[5];
+		this.price = new double[5];
+		numberProduct = 0;
+	}
+	
+	
+	
+
+	
+	public void addProduct () {
+		
+	}
+	@Override
+	public String toString() {
+		System.out.println("Product name is : ");
+		return name;
+	}
+	
+	public void printProductDetail() {
+		
+	}
+	
+	public double getTotalPrice() {
+		return 0;
+		
+	}
+	
+	
+}

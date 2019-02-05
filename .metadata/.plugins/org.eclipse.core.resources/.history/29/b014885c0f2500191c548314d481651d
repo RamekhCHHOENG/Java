@@ -1,0 +1,30 @@
+
+public class SilverMembership extends Customer {
+	public SilverMembership(String name, double packageCost, double serviceCost) {
+		super(name, packageCost, serviceCost);
+	}
+	
+	
+	public 	double getDiscount() {
+		return 0;
+	}
+
+
+	@Override
+	public double findTotalExpense() {
+		
+		double expense = getPackageCost()+getServiceCost();
+		double discount = 0.1 * expense;
+		double totalExpense = expense -discount;
+		return totalExpense;
+	}
+
+
+	@Override
+	public String toString() {
+		
+		return super.toString();
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package ClassInheritance;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Dog kiki = new Dog();
+	
+		System.out.println(kiki);
+		kiki.bark();
+
+	}
+
+}
